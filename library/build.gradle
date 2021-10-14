@@ -1,6 +1,11 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
+
+//----------------------maven插件 start---------------------//
+    //apply maven插件
+    id 'com.github.dcendents.android-maven'
+//----------------------maven插件 end ---------------------//
 }
 
 android {
